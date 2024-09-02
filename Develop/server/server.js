@@ -10,7 +10,3 @@ app.use(express.json());
 require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, () => console.log(`Now listening on port: ${PORT}`));
-//sudo rm -rf
-//in case I accidentally install a bad node_modules that REALLY doesn't want to leave again
-
-
