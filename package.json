@@ -1,11 +1,11 @@
 {
-  "name": "JATE",
+  "name": "PWA_TextEditor",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run dev\"",
-    "start": "",
+    "start": "npm start",
     "server": "",
     "build": "",
     "install": "concurrently \"cd ./server && npm i\" \"cd ./client && npm i\"",
