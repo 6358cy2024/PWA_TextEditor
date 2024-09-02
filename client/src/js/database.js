@@ -38,10 +38,10 @@ export const getDb = async () => {
     const text = db.transaction('jate', 'readOnly');
     
     const store = text.objectStore('jate');
-    const request = store.getAll();
-    const res = await request;
+    const req = store.getAll();
+    const res = await req;
     console.log('res.value', res);
-    return ress?.value;
+    return res?.value;
 
   } catch (error) {
     console.error('getDb not implemented', error);
