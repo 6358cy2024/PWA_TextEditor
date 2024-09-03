@@ -23,7 +23,8 @@ export const putDb = async (content) => {
 
     const req = store.put({ id: 1, value: content });
     const res = await req;
-    console.log('Saved!', res);
+    //same messages as in main bundle
+    console.log('🚀 - data saved to the database', res);
   } catch (error) {
     console.error('putDb not implemented', error);
   }
